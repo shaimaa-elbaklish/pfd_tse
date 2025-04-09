@@ -1,1 +1,9 @@
-# pfd_tse
+# The Fundamental Diagram of Autonomous Vehicles: Traffic State Estimation and Evidence from Vehicle Trajectories
+This reposoitory includes the replication code for utilizing the PFD method for traffic state estimation applications.
+
+## Data sources
+All utilized datasets are publicly available and can be found as follows.
+- **CARMA dataset**: https://ntl.bts.gov/ntl/public-access \ Publication: Tiernan, T., Bujanovic, P., Azeredo, P., Najm, W.G., Lochrane, T., 2019. CARMA Testing and Evaluation of Research Mobility Applications. Federal Highway Administration, U.S. DoT URL: https://ntl.bts.gov/public-access, doi:10.21949/1503647.
+- **OpenACC dataset**: http://data.europa.eu/89h/9702c950-c80f-4d2f-982f-44d06ea0009f \ Publication: Makridis, M., Mattas, K., Anesiadou, A., Ciuffo, B., 2021. OpenACC. An open database of car-following experiments to study the properties of commercial ACC systems. Transportation Research Part C: Emerging Technologies 125, 103047. URL: https://www.sciencedirect.com/science/article/pii/S0968090X21000772, doi:10.1016/j.trc.2021.103047.
+- **Vanderbilt dataset**: \ Publication: Gunter, G., Gloudemans, D., Stern, R.E., McQuade, S., Bhadani, R., Bunting, M., Delle Monache, M.L., Lysecky, R., Seibold, B., Sprinkle, J., Piccoli, B., Work, D.B., 2021. Are Commercially Implemented Adaptive Cruise Control Systems String Stable? IEEE Transactions on Intelligent Transportation Systems 22, 6992–7003. doi:10.1109/TITS.2020.3000682.
+- **I24-MOTION dataset**: https://i24motion.org/ \ Publication: Gloudemans, D., Wang, Y., Ji, J., Zach´ar, G., Barbour, W., Hall, E., Cebelak, M., Smith, L., Work, D.B., 2023. I-24 MOTION: An instrument for freeway traffic science. Transportation Research Part C: Emerging Technologies 155, 104311. doi:10.1016/J.TRC.2023.104311. publisher: Pergamon.
