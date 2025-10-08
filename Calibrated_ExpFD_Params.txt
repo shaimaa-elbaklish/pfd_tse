@@ -1,0 +1,42 @@
+NGSIM Dataset (I80, CA):
+------------------------
+Duration: 07:50am-08:05am [Fig. 7(a), Fig. 9(a)]
+[[Variables]]
+    vf:      37.1535107 (init = 10)
+    alpha:   2.01650908 (init = 5)
+    k_crit:  75.2734677 (init = 150)
+
+Duration: 08:05am-08:20am [Fig. 9(a)]
+[[Variables]]
+    vf:      31.5215393 (init = 10)
+    alpha:   2.59426258 (init = 5)
+    k_crit:  65.2535293 (init = 150)
+
+Duration: 08:20am-08:35am [Fig. 9(a)]
+[[Variables]]
+    vf:      27.6230844 (init = 10)
+    alpha:   2.43303370 (init = 5)
+    k_crit:  70.3233553 (init = 150)
+
+
+========================================================================
+========================================================================
+I24-Motion Dataset (22-11-2021):
+--------------------------------
+Duration: 7:00am - 7:15am [Fig. 9(b)]
+[[Variables]]
+    vf:      29.0749034 (init = 10)
+    alpha:   2.51732989 (init = 5)
+    k_crit:  71.1687031 (init = 150)
+
+Duration: 7:15am - 7:30am [Fig. 9(b)]
+[[Variables]]
+    vf:      29.5572442 (init = 10)
+    alpha:   2.29595941 (init = 5)
+    k_crit:  66.4179077 (init = 150)
+
+Full Duration: 7:00am - 7:30am [Fig. 7(b)]
+[[Variables]]
+    vf:      30.1480924 (init = 10)
+    alpha:   2.12788865 (init = 5)
+    k_crit:  70.0444866 (init = 150)
