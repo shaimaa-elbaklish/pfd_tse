@@ -8,3 +8,16 @@ All utilized datasets are publicly available and can be found as follows.
 - **Vanderbilt dataset**: <br> *Publication*: Gunter, G., Gloudemans, D., Stern, R.E., McQuade, S., Bhadani, R., Bunting, M., Delle Monache, M.L., Lysecky, R., Seibold, B., Sprinkle, J., Piccoli, B., Work, D.B., 2021. Are Commercially Implemented Adaptive Cruise Control Systems String Stable? IEEE Transactions on Intelligent Transportation Systems 22, 6992–7003. doi:10.1109/TITS.2020.3000682.
 - **NGSIM dataset**: https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm <br> *Publication*: Alexiadis, V., Colyar, J., Halkias, J., Hranac, R., McHale, G., 2004. The Next Generation SIMulation program. ITE Journal 74. URL: https://trid.trb.org/View/1158705.
 - **I24-MOTION dataset**: https://i24motion.org/ <br> *Publication*: Gloudemans, D., Wang, Y., Ji, J., Zach´ar, G., Barbour, W., Hall, E., Cebelak, M., Smith, L., Work, D.B., 2023. I-24 MOTION: An instrument for freeway traffic science. Transportation Research Part C: Emerging Technologies 155, 104311. doi:10.1016/J.TRC.2023.104311. publisher: Pergamon.
+
+
+## How to run
+To replicate the FD construction and TSE for NGSIM dataset, please run `main_ngsim.py`. For I24-MOTION, run `main_I24motion.py`.
+
+To replicate the FD construction for different time periods, please run `main_ngsim_PFD_durations.py` or `main_I24motion_PFD_durations.py`.
+
+Please change the necessary paths for the data directories in the `constants.py` file. Specifically, `NGSIM_DATA_ROOT` and `I24_DATA_ROOT`. 
+Tuning parameters for the aggregation step are given in the `constants.py` file.
+```
+PFD_MIN_OBSERVATIONS = 15     # For NGSIM: 15, For I24-MOTION: 50
+PFD_MAX_DENSITY = 140         # For NGSIM: 140, For I24-MOTION: 120
+```
